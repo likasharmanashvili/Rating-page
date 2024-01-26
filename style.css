@@ -1,0 +1,130 @@
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    font-family: Montserrat ;
+}
+
+
+.maincontainer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #181E27;
+    width: 412px;
+    height: 416px;
+padding: 20px;
+text-align: left;
+    border-radius: 20px;
+}
+.textcontent {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    display: flex;
+align-items: left;
+justify-content: left;
+margin-left: 40px;
+
+ 
+}
+.textcontent >h1{
+    color: white;
+    font-size: 
+    28px;
+}
+.textcontent > p{
+    color: grey;
+    font-size: 15px;
+    width: 370px;
+}
+
+.button {
+    margin-top: 10px;
+    background-color: #FC7614;
+    color: white;
+    width:341px ;
+    height:45px;
+    border-radius: 20px;
+    border: none;
+}
+.buttons {
+width: 400px;
+
+display: flex;
+align-items: left;
+justify-content: left;
+gap: 20px;
+
+}
+
+.buttons >button{
+    border-radius: 300px;
+    background-color: #262E38;
+    width: 51px;
+    height: 51px;
+    border: none;
+    color: grey;
+
+
+}
+.buttons >button:hover{
+    background-color: #7C8798;
+    color: white;
+ }
+.img { 
+    background-color: #262E38;
+    width: 51px;
+    height: 51px;
+    border-radius: 300px;display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.hoverContainer {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #181E27;
+        width: 412px;
+        height: 416px;
+    padding: 20px;
+    text-align: left;
+        border-radius: 20px;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+        display: none;
+    
+}
+.ptag {color: grey;}
+.selectedbutton {margin-left: 110px;}
+
+.selectedbutton {color: #FC7614;
+    background-color: #262E38;
+    height: 32px;
+    width: 193px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+ 
+ @media (width  > 370px) {
+
+
+
+
+
+
+ }
